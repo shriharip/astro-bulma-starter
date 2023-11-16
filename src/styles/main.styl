@@ -1,0 +1,32 @@
+@import "bulma/css/bulma.css";
+
+gray-darker = hsl(0, 0%, 21%)
+
+@font-face
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+
+@font-face 
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+
+body 
+	font-family: 'Atkinson', sans-serif;
+	background: linear-gradient(gray-gradient) no-repeat;
+	background-size: 100% 600px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	color: rgb(gray-darker);
+	font-size: 20px;
+
+main 
+	width: 720px;
+	max-width: calc(100% - 2em);
+
+
