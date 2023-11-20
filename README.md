@@ -1,5 +1,7 @@
 # Astro Starter Kit: Blog
 
+## Uses Bulma as CSS provider, some modifications to css using Stylus-lang.
+
 ```sh
 npm create astro@latest -- --template blog
 ```
